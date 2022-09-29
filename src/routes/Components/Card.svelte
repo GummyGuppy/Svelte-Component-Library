@@ -50,7 +50,8 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     {#if name}
     <div class="flex justify-around items-center w-64 bg-gradient-to-r from-yellow-100 
     to-gray-100 animate-in slide-in-from-top-72 duration-1000">
-        <Icon icon="logos:awesome" height="2em"/>
+        <Icon icon="fluent-emoji:cool-button" height="2em"/>    
+    
         Wicked Cool!
     </div>
     {/if}
@@ -58,7 +59,7 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     {#if title}
     <div class="flex justify-around items-center w-64 bg-gradient-to-r from-yellow-100 
     to-gray-100 animate-in slide-in-from-right spin-in-90 duration-1000">
-        <Icon icon="fluent-emoji:cool-button" height="2em"/>
+        <Icon icon="logos:awesome" height="2em"/>
         You've got it!
     </div>
     {/if}
