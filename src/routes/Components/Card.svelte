@@ -64,10 +64,10 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     </div>
     {/if}
     <h1 class="font-extrabold text-4xl">Try it out!</h1>
-    <input bind:value={name} placeholder="Name..." class='bg-gradient-to-r from-blue-100 
+    <input bind:value={name} placeholder="name.." class='bg-gradient-to-r from-blue-100 
         to-gray-100 p-2 w-64 outline outline-2 outline-blue-300 rounded-lg shadow-lg focus:outline-none' />
     <h1 class="font-extrabold text-4xl">Job title?</h1>
-    <input bind:value={title} placeholder="Name..." class='bg-gradient-to-r from-blue-100 
+    <input bind:value={title} placeholder="job title.." class='bg-gradient-to-r from-blue-100 
     to-gray-100 p-2 w-64 outline outline-2 outline-blue-300 rounded-lg shadow-lg focus:outline-none' />
     <h1 class="font-extrabold text-4xl">Add Photo:</h1>
     <input placeholder="coming soon" disabled class='bg-gradient-to-r from-blue-100 
