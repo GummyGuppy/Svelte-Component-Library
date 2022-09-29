@@ -13,7 +13,7 @@ let name, title = ''
 <div class='flex items-center flex-col lg:flex-row'>
 <div class=' outline outline-3 outline-blue-300 rounded-lg w-64 h-96 m-12 shadow-lg flex flex-col justify-between
 bg-gradient-to-r from-blue-100 to-gray-100'>
-    <div class='flex flex-col justify-center p-2 animate-pulse'>
+    <div class='flex flex-col justify-center p-2'>
         <Image class="shadow-lg"/>
         <div class='flex h-1 m-2 bg-blue-300'/>
     </div>
@@ -34,10 +34,10 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     </div>
     <div class='card-contact flex flex-row  justify-center pb-2 gap-6'>
         <div class="flex gap-1">
-            <Icon icon="icon-park:facebook" class="hover:animate-bounce" width="2em"/>
-            <Icon icon="icon-park:instagram" class="hover:animate-bounce" width="2em"/>   
-            <Icon icon="flat-color-icons:conference-call" class="hover:animate-bounce" height="2em" />
-            <Icon icon="flat-color-icons:voice-presentation" class="hover:animate-bounce" height="2em"/>
+            <Icon icon="icon-park:facebook" width="2em"/>
+            <Icon icon="icon-park:instagram"  width="2em"/>   
+            <Icon icon="flat-color-icons:conference-call"  height="2em" />
+            <Icon icon="flat-color-icons:voice-presentation" height="2em"/>
         </div>
         
     </div>
