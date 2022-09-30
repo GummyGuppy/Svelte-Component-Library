@@ -72,7 +72,7 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     to-gray-100 p-2 w-64 outline outline-2 outline-blue-300 rounded-lg shadow-lg focus:outline-none' />
 </div>
 
-    <div class=" flex flex-col justify-between h-96 w-3/4 lg:ml-12 sm:mr-10 mt-6 bg-gradient-to-r from-yellow-100 
+    <div class=" flex flex-col justify-between w-3/4 lg:ml-12 sm:mr-10 mt-6 bg-gradient-to-r from-yellow-100 
     to-gray-100 p-6 outline outline-2  outline-blue-300 rounded-lg shadow-lg">
 
         
@@ -81,12 +81,21 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
                 Front and center profile image, with contact icons that demand a click! This Card Component 
                 brings the attention to your users. The cards are in your hands!  </p>
 
-            <h3 class="bg-gradient-to-r from-blue-100 self-center lg:self-start
-            to-gray-100 p-2 outline w-fit outline-2 outline-blue-300 rounded-lg shadow-lg">
-                <a href="https://github.com/GummyGuppy/Svelte-Component-Library/blob/master/README.md" 
-                    target="_blank"
-                    class="text-blue-400 underline underline-offset-2">View Docs</a>
-            </h3>
+            <div class="flex gap-2">
+                <h3 class="bg-gradient-to-r from-blue-100 self-center lg:self-start
+                to-gray-100 p-2 outline w-fit outline-2 outline-blue-300 rounded-lg shadow-lg">
+                    <a href="https://github.com/GummyGuppy/Svelte-Component-Library/blob/master/README.md" 
+                        target="_blank"
+                        class="text-blue-400 underline underline-offset-2">View Docs</a>
+                </h3>
+                <h3 class="bg-gradient-to-r from-blue-100 self-center lg:self-start
+                to-gray-100 p-2 outline w-fit outline-2 outline-blue-300 rounded-lg shadow-lg">
+                    <a href="https://github.com/GummyGuppy/Svelte-Component-Library/blob/master/README.md" 
+                        target="_blank"
+                        class="text-blue-400 underline underline-offset-2">Grab Code</a>
+                </h3>
+            </div>
+
 
             
         
