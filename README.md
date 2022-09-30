@@ -15,8 +15,6 @@ To use a component, simply copy and paste the relevant code block into a svelte 
 
 ## Card
 
-Note that Image must be either imported or replaced in order to properly format the Card.
-
 Args | Type | Required?
 --- | --- | ---
 name | String | No
