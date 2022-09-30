@@ -3,6 +3,10 @@
 ### Todo: ###
 
 - [ ] Insert function argument ??
+- [ ] Adjust CSS divs in mobile to fit content
+- [ ] 
+- [ ] 
+- [ ] 
 
 ## Prerequisites 
 
