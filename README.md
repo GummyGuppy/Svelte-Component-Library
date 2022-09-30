@@ -52,3 +52,5 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
 </div>
 
 ```
+
+###### This project was created by Earl / check my git for more! [Gummyguppy](https://github.com/gummyguppy) ######
