@@ -1,38 +1,46 @@
-# create-svelte
+## Card
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Note that Image on line ***15*** and Icons on ***35-38*** must be either imported or replaced in order to properly format the Card.
 
-## Creating a project
+Args | Type
+--- | ---
+name | String
+title | String
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
+<div class=' outline outline-3 outline-blue-300 rounded-lg w-64 h-96 m-12 shadow-lg flex flex-col justify-between
+bg-gradient-to-r from-blue-100 to-gray-100'>
+    <div class='flex flex-col justify-center p-2'>
+        <Image class="shadow-lg"/>
+        <div class='flex h-1 m-2 bg-blue-300'/>
+    </div>
+    <div class="flex pl-4 text-lg gap-2 font-bold">
+         {#if name}
+            {name}
+         {:else}
+            <slot>Karen Needsamanager</slot>
+         {/if}
+        
+    </div>
+    <div class='pl-4 text-sm'>
+        {#if title}
+            {title}
+        {:else}
+            <slot>Certified Manager</slot>
+        {/if}
+    </div>
+    <div class='card-contact flex flex-row  justify-center pb-2 gap-6'>
+        <div class="flex gap-1">
+            <Icon icon="icon-park:facebook" width="2em"/>
+            <Icon icon="icon-park:instagram"  width="2em"/>   
+            <Icon icon="flat-color-icons:conference-call"  height="2em" />
+            <Icon icon="flat-color-icons:voice-presentation" height="2em"/>
+        </div>
+        
+    </div>
+    
+    
+</div>
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
