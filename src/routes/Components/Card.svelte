@@ -1,14 +1,14 @@
 <script>
     import Icon from '@iconify/svelte';
 	import { now } from 'svelte/internal';    
-    import Image from './Icons/Profile.svelte'
+    import Image from  './Icons/Profile.svelte'
     
 
 export let name, title = ''
 
 </script>
 
-<div class='flex items-center flex-col lg:flex-row'>
+<div class='flex items-center flex-col-reverse lg:flex-row'>
 <div class=' outline outline-3 outline-blue-300 rounded-lg w-64 h-96 m-12 shadow-lg flex flex-col justify-between
 bg-gradient-to-r from-blue-100 to-gray-100'>
     <div class='flex flex-col justify-center p-2'>
@@ -61,7 +61,7 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
         You've got it!
     </div>
     {/if}
-    <h1 class="font-extrabold text-4xl">Try it out!</h1>
+    <h1 class="font-extrabold text-4xl mt-4">Try it out!</h1>
     <input bind:value={name} placeholder="name.." class='bg-gradient-to-r from-blue-100 
         to-gray-100 p-2 w-64 outline outline-2 outline-blue-300 rounded-lg shadow-lg focus:outline-none' />
     <h1 class="font-extrabold text-4xl">Job title?</h1>
@@ -95,13 +95,6 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
                         class="text-blue-400 underline underline-offset-2">Grab Code</a>
                 </h3>
             </div>
-
-
-            
-        
-        
-        
-        
     </div>
 
 </div>
