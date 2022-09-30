@@ -3,7 +3,7 @@
 - Tailwind CSS
 - A Svelte file you wish to add this component to
 
-All of the icons used in this project were imported from [Iconify]("https://iconify.design/")
+All of the icons used in this project were imported from [Iconify](https://iconify.design/)
 
 ## Card
 
