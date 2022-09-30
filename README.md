@@ -17,10 +17,10 @@ To use a componenent, simply copy and paste the relevant code block into a svelt
 
 Note that Image must be either imported or replaced in order to properly format the Card.
 
-Args | Type
---- | ---
-name | String
-title | String
+Args | Type | Required?
+--- | --- | ---
+name | String | No
+title | String | No
 
 
 ```
