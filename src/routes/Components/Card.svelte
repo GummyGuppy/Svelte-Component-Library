@@ -2,7 +2,7 @@
     import Icon from '@iconify/svelte';
 	import { now } from 'svelte/internal';    
     import Image from './Icons/Profile.svelte'
-    import Drawing from './Icons/ProfileDrawing.svelte'
+    
 
 export let name, title = ''
 

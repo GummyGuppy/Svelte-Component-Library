@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        profileDrawing: "url('./src/routes/Components/Icons/ProfileDrawing.svelte')"
+        ocean: "url('./routes/waves.jpg')"
       }
     },
   },
