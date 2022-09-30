@@ -1,9 +1,13 @@
+# Svelte Component Library #
+
 ## Prerequisites 
 
-- Tailwind CSS
-- A Svelte file you wish to add this component to
+- [Svelte](https://svelte.dev/) or [SvelteKit](https://kit.svelte.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- A Svelte file you wish to add a component to
 
-All of the icons used in this project were imported from [Iconify](https://iconify.design/)
+All of the icons used in this project were imported from [Iconify](https://iconify.design/), but you can obviously use any resource you wish. 
+To use a componenent, simply copy and paste the relevant code block into a svelte file.
 
 ## Card
 
