@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        profileDrawing: "url('./src/routes/Components/Icons/ProfileDrawing.svelte')"
+      }
+    },
   },
   plugins: [require("tailwindcss-animate")],
 }

@@ -1,10 +1,8 @@
 <script>
     import Icon from '@iconify/svelte';
-	import { now } from 'svelte/internal';
-
-
-    
+	import { now } from 'svelte/internal';    
     import Image from './Icons/Profile.svelte'
+    import Drawing from './Icons/ProfileDrawing.svelte'
 
 let name, title = ''
 
@@ -73,4 +71,25 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     <input placeholder="coming soon" disabled class='bg-gradient-to-r from-blue-100 
     to-gray-100 p-2 w-64 outline outline-2 outline-blue-300 rounded-lg shadow-lg focus:outline-none' />
 </div>
+
+    <div class=" flex flex-col justify-between h-96 w-3/4 lg:ml-12 sm:mr-10 mt-6 bg-gradient-to-r from-yellow-100 
+    to-gray-100 p-6 outline outline-2  outline-blue-300 rounded-lg shadow-lg">
+
+        
+            <h1 class="font-extrabold text-4xl">Modular Cards</h1>
+            <p class="font-bold p-8">Curb any business need with dynamic Card Components. 
+                Front and center profile images, with contact icons that demand a click!</p>
+
+            <h3 class="bg-gradient-to-r from-blue-100 self-center lg:self-start
+            to-gray-100 p-2 outline w-fit outline-2 outline-blue-300 rounded-lg shadow-lg">
+                <a href="https://www.google.com" class="text-blue-400 underline underline-offset-2">View Docs</a>
+            </h3>
+
+            
+        
+        
+        
+        
+    </div>
+
 </div>
