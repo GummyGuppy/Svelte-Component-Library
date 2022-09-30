@@ -24,6 +24,10 @@ title | String | No
 
 
 ```
+<script>
+    let name, title = ''
+</script>
+
 <div class=' outline outline-3 outline-blue-300 rounded-lg w-64 h-96 shadow-lg flex flex-col justify-between
 bg-gradient-to-r from-blue-100 to-gray-100'>
     <div class='flex flex-col justify-center p-2'>
