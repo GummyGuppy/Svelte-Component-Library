@@ -4,7 +4,7 @@
     import Image from './Icons/Profile.svelte'
     import Drawing from './Icons/ProfileDrawing.svelte'
 
-let name, title = ''
+export let name, title = ''
 
 </script>
 
@@ -77,12 +77,15 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
 
         
             <h1 class="font-extrabold text-4xl">Modular Cards</h1>
-            <p class="font-bold p-8">Curb any business need with dynamic Card Components. 
-                Front and center profile images, with contact icons that demand a click!</p>
+            <p class="font-bold p-8">Quickly develop a concept using these helper components. 
+                Front and center profile image, with contact icons that demand a click! This Card Component 
+                brings the attention to your users. The cards are in your hands!  </p>
 
             <h3 class="bg-gradient-to-r from-blue-100 self-center lg:self-start
             to-gray-100 p-2 outline w-fit outline-2 outline-blue-300 rounded-lg shadow-lg">
-                <a href="https://www.google.com" class="text-blue-400 underline underline-offset-2">View Docs</a>
+                <a href="https://github.com/GummyGuppy/Svelte-Component-Library/blob/master/README.md" 
+                    target="_blank"
+                    class="text-blue-400 underline underline-offset-2">View Docs</a>
             </h3>
 
             
