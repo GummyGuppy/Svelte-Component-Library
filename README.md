@@ -1,3 +1,8 @@
+## Prerequisites 
+
+- Tailwind CSS
+- A Svelte file you wish to add this component to
+
 ## Card
 
 Note that Image on line ***15*** and Icons on ***35-38*** must be either imported or replaced in order to properly format the Card.
