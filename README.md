@@ -1,5 +1,9 @@
 # Svelte Component Library #
 
+### Todo: ###
+
+- [ ] Insert function argument ??
+
 ## Prerequisites 
 
 - [Svelte](https://svelte.dev/) or [SvelteKit](https://kit.svelte.dev/)
@@ -43,7 +47,7 @@ bg-gradient-to-r from-blue-100 to-gray-100'>
     </div>
     <div class='card-contact flex flex-row  justify-center pb-2 gap-6'>
         <div class="flex gap-1">
----------------------------------        [INSERT CONTACT ICONS HERE] -------------------------------------------
+---------------------------------        [INSERT CONTACT ICONS/Links HERE] -------------------------------------------
         </div>
     </div>
 </div>
