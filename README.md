@@ -5,7 +5,7 @@
 ### Todo: ###
 
 - [x] Be awesome!
-- [ ] Add color picker for various compoenents
+- [ ] Add color picker for various components
 - [ ] Insert function argument ??
 - [ ] Adjust CSS divs in mobile to fit content
 
